@@ -96,6 +96,7 @@ input#menu-hamburguesa:checked ~ ul{
     background-image: url('../Portafolio 2/assets/Vectores/Rectangle 33.svg');
     text-align: center;
     padding: 1.5rem;
+    padding-top: 2rem;
 }
 
 #personal-info-section>div{
@@ -115,6 +116,11 @@ h2{
 
 }
 
+#exp-inf{
+    margin: 3rem 0;
+    padding: 20px;
+}
+
 #exp-inf>h2{
     text-align: center;
     margin: 1rem;
@@ -128,6 +134,16 @@ h2{
     margin: .5rem;
 }
 
+#exp-inf>.icon{
+    position: relative;
+}
+#exp-inf>.icon>img{
+    position: absolute;
+    margin-right: 1rem;
+    right: 0;
+    top: 20px;
+}
+
 #exp-inf .info-experience p{
     font-size: 10px;
     text-align: center;
@@ -138,11 +154,28 @@ h3{
     font-size: 18px;
 }
 
+#abilities-personal{
+    position: relative;
+    margin: 3rem 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    z-index: 100;
+}
+
+#abilities-personal>.vector>img{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100px 100%;
+
+    
+}
+
 #abilities-personal>h2{
     text-align: center;
 }
 
-#abilities-personal>.hab-items{
+#abilities-personal>.vector>.hab-items{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,7 +184,7 @@ h3{
     text-align: center;
 }
 
-#abilities-personal>.hab-items span{
+#abilities-personal>.vector>.hab-items span{
   color: var(--accent-color);
   font-size: 32px;
   
