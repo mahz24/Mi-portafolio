@@ -290,11 +290,11 @@ h3{
 }
 
 #contacto>.contact1>.icono{
-    width: 80px;
+    width: 80%;
 }
 
 #contacto>.contact2>.icono{
-    width: 80px;
+    width: 50%;
 }
     
 #contacto>.contact2{
