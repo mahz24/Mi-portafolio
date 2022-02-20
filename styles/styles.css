@@ -288,21 +288,21 @@ h3{
     grid-row: 2 / 3;
     margin: auto;
 }
+   
+#contacto>.contact2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    margin: auto;
+    left: 0;
+}
 
 #contacto>.contact1>.icono{
     width: 80%;
 }
 
 #contacto>.contact2>.icono{
-    width: 50%;
+    width: 40%;
 }
-    
-#contacto>.contact2{
-    grid-column: 2 / 3;
-    grid-row: 2 / 4;
-    margin: auto;
-}
-
 .p{
     font-size: 100%;
 }
