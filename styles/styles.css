@@ -6,15 +6,15 @@
 }
 
  *{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
- body{
-     background-color: var(--second-color);
-     color: white;
-     font-family: 'Inter', sans-serif;
+body{
+    background-color: var(--second-color);
+    color: white;
+    font-family: 'Inter', sans-serif;
 
  }
 
@@ -78,53 +78,44 @@ ul>li>a:hover{
 /* home */
 
 #home{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: .20fr 1fr;
-    margin: 0 3rem 3rem 3rem;
-    padding: 1.25rem;
+	width: 100%;
+  display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 15px 0
+		
 }
 
-#home>div{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    margin: auto;
+.home-info{
+	align-items: center;
+}
+
+.home-info>h1{
+	font-size: 7vw;
+	margin-bottom: 2vw;
+}
+
+.home-info>p{
+	font-size: 1.5rem;
+	margin-bottom: 4px;
 }
 
 #imagen-home{
-    width: 100% !important;
-    height: 70%;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    margin: auto;
-    
+    width: 42vw;
+    height: 55vh;
+		border-radius: 45%;
  }
 
-#name{
-    grid-column: 1 / 3;
-    font-size: 50px;
-    font-weight: 600;
-}
-
-#home p{
-    font-size: 18px;
-    margin-bottom: 1rem;
-    right: 0;
-    margin-bottom: 1rem;
-}
-
-#home p>span{
-    color: var(--accent-color);
-}
-
 .social-icon-wrapper{
-    margin-bottom: 1rem;
+	margin-top: 7px;
 }
 
-.social-icon-wrapper>.icon{
-    margin-right: 1rem;
-    width: 24px;
+i{
+	color: var(--accent-color);
+	font-size: 2rem;
+	margin-right: 5px;
 }
+
 
 /* Acerca de mi */
 #aboutme{
@@ -364,5 +355,4 @@ footer>p>img{
     #portafolio{
         padding: 10rem;
     }
-   
 }
