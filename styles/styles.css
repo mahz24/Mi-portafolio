@@ -104,7 +104,13 @@ ul>li>a:hover{
 #imagen-home{
     width: 42vw;
     height: 55vh;
-		border-radius: 45%;
+	border-radius: 45%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+#imagen-home:hover{
+    
 }
 
 .social-icon-wrapper{
@@ -341,15 +347,10 @@ footer>p>img{
     #aboutme{
         justify-content: center;
         align-items: center;
-        padding: 10rem;
-    }
-
-    #experiencia{
-        grid-template-columns: repeat(4, .25fr);
-        padding: 10rem;
+        padding: 5rem;
     }
 
     #portafolio{
-        padding: 10rem;
+        padding: 5vw;
     }
 }
